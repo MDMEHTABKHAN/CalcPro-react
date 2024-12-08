@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn {
+  @apply bg-gray-700 text-teal-400 rounded-lg text-xl p-2 shadow hover:bg-gray-600 transition;
+}
+
+.operator {
+  @apply bg-gray-600;
+}
+
+.equals {
+  @apply bg-teal-400 text-gray-800;
+}
